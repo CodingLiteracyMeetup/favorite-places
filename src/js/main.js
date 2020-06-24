@@ -21,8 +21,14 @@ function initMap() {
 // Create a marker and show it on the map.
 const addPlacesOnMap = (places, map) => {
   places.forEach(place => {
-    const location = { lat: place.coordinates.lat, lng: place.coordinates.lng };
-    new google.maps.Marker({ position: location, map: map, title: place.name });
+    // place.coordinates is an object expected by the position attribute
+    new google.maps.Marker(
+      {
+        position: place.coordinates,
+        map: map,
+        title: place.name
+      }
+    );
   });
 }
 
