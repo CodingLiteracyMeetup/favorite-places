@@ -1,0 +1,30 @@
+[
+  {
+    "coordinates": {
+      "lat": 41.099350,
+      "lng": -73.415894
+    },
+    "name": "El Segundo"
+  },
+  {
+    "coordinates": {
+      "lat": 41.098946,
+      "lng": -73.417492
+    },
+    "name": "Mecha Noodle Bar"
+  },
+  {
+    "coordinates": {
+      "lat": 41.101088,
+      "lng": -73.416569
+    },
+    "name": "Aquarium"
+  },
+  {
+    "coordinates": {
+      "lat": 41.096746,
+      "lng": -73.415700
+    },
+    "name": "Sono Baking Company"
+  }
+]
